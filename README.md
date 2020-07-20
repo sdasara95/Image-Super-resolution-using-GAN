@@ -1,14 +1,14 @@
-##PROJECT NAME
+## PROJECT NAME
 --------------
-##IMAGE SUPER-RESOLUTION USING GENERATIVE ADVERSARIAL NETWORKS
+## IMAGE SUPER-RESOLUTION USING GENERATIVE ADVERSARIAL NETWORKS
 
-##INTRODUCTION
+## INTRODUCTION
 --------------
 This project is an implementation of the paper "Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network" popularly known as Super-Resolution GAN (SRGAN) \
 This project takes input of size 100x100 and upscales it to 400x400 for the Super-resolution task. \
 The generator weights are stored after every 5 epochs. \
 
-##REQUIREMENTS
+## REQUIREMENTS
 --------------
 The following modules are required for the project to run: \
 Tensorflow \
@@ -20,7 +20,7 @@ Sys \
 Pickle \
 Time \
 
-##MODULES
+## MODULES
 ---------
 There are four .py files: \
 
@@ -41,7 +41,7 @@ It writes image in the same folder with string 'recons' prepended to original im
 +metrics.py:\
 This module contains some utility code to do Bilinear, Bicubic and Nearest interpolation for upscaling tasks and PSNR and SSIM value calculation for two arrays of images.\
 
-##CONFIGURATION 
+## CONFIGURATION 
 ---------------
 The model was run on Google Cloud instance with the following configuration:\
 8 CPU\
@@ -65,11 +65,8 @@ https://medium.com/@naomi.fridman/install-conda-tensorflow-gpu-and-keras-on-ubun
 
 You have to do sudo apt-get install ubuntu-drivers-common before checking for the devices.\
 
-##AUTHORS
+## AUTHORS
 ---------
 ###SATYARAJA DASARA          sdasara@iu.edu
-###SIVA CHARAN MANGAVALLI    simang@iu.edu    
-###ADITHYA BOPPANA           aboppana@iu.edu
-
 
 
