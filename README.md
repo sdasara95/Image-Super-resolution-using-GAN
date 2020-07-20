@@ -6,7 +6,7 @@
 --------------
 This project is an implementation of the paper "Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network" popularly known as Super-Resolution GAN (SRGAN) \
 This project takes input of size 100x100 and upscales it to 400x400 for the Super-resolution task. \
-The generator weights are stored after every 5 epochs. \
+The generator weights are stored after every 5 epochs. 
 
 ## REQUIREMENTS
 --------------
@@ -18,7 +18,7 @@ Numpy \
 Os \
 Sys \
 Pickle \
-Time \
+Time 
 
 ## MODULES
 ---------
@@ -39,7 +39,7 @@ It should be in the same folder as 'generator.h5' which is the saved model file 
 It writes image in the same folder with string 'recons' prepended to original image filename.\
 
 +metrics.py:\
-This module contains some utility code to do Bilinear, Bicubic and Nearest interpolation for upscaling tasks and PSNR and SSIM value calculation for two arrays of images.\
+This module contains some utility code to do Bilinear, Bicubic and Nearest interpolation for upscaling tasks and PSNR and SSIM value calculation for two arrays of images.
 
 ## CONFIGURATION 
 ---------------
@@ -63,7 +63,7 @@ Prepend Anaconda Path to default path for Python or else "export PATH=~/anaconda
 This is for downloading the GPU drivers into the instance\
 https://medium.com/@naomi.fridman/install-conda-tensorflow-gpu-and-keras-on-ubuntu-18-04-1b403e740e25\
 
-You have to do sudo apt-get install ubuntu-drivers-common before checking for the devices.\
+You have to do sudo apt-get install ubuntu-drivers-common before checking for the devices.
 
 ## AUTHORS
 ---------
