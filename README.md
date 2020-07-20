@@ -67,6 +67,6 @@ You have to do sudo apt-get install ubuntu-drivers-common before checking for th
 
 ## AUTHORS
 ---------
-###SATYARAJA DASARA          sdasara@iu.edu
+### SATYARAJA DASARA          sdasara@iu.edu
 
 
