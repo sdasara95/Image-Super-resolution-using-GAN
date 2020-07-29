@@ -64,7 +64,7 @@ You have to do sudo apt-get install ubuntu-drivers-common before checking for th
 
 ## Results
 
-Test input: https://drive.google.com/drive/u/0/folders/1D9Dy_7KIvJtiZL8ahRC7mub4rcOy9Dpf
-Test output:https://drive.google.com/drive/u/0/folders/1XMst-DoF3I4-oQTzFGoThGPCGN4KOqRn
+[Test inputs](https://drive.google.com/drive/u/0/folders/1D9Dy_7KIvJtiZL8ahRC7mub4rcOy9Dpf)<br>
+[Test output](https://drive.google.com/drive/u/0/folders/1XMst-DoF3I4-oQTzFGoThGPCGN4KOqRn)
 
 ### SATYARAJA DASARA          sdasara@iu.edu
